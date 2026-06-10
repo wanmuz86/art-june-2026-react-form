@@ -2,6 +2,7 @@
 import './App.css'
 import ControlledForm from './ControlledForm'
 import UncontrolledForm from './UncontrolledForm'
+import ReactFormHookDemo from './ReactFormHookDemo'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
      <hr />
         <h1>Uncontrolled form</h1>
      <UncontrolledForm/>
+     <hr />
+     <ReactFormHookDemo/>
     </>
   )
 }
